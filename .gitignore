@@ -1,0 +1,7 @@
+**/wandb/*
+.idea/*
+**/__pycache__/
+**/build/
+**/*amd64*
+
+!**/placeholder.txt
