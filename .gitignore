@@ -5,3 +5,4 @@
 **/*amd64*
 
 !**/placeholder.txt
+**/debug_data/*

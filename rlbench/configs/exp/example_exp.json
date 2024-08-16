@@ -1,0 +1,49 @@
+{
+  "experiment": {
+    "exp_type": "",
+    "seed": 42,
+    "n_seq_repeats": 2,
+    "n_par_repeats": 2
+  },
+  "learner": {
+    "learners": ["learner1", "learner2"],
+    "configs": {
+      "learner1": "learner1.json",
+      "learner2": "learner2.json"
+    },
+    "learner_kwargs": {
+      "common": {
+        "static": {
+          "act": {},
+          "preproc": {}
+        },
+        "multi": {
+          "act": {},
+          "preproc": {}
+        }
+      },
+      "learner1": {
+        "static": {
+          "act": {},
+          "preproc": {}
+        },
+        "multi": {
+          "act": {},
+          "preproc": {}
+        }
+      }
+    },
+    "env_kwargs": {
+      "learner1": {},
+      "learner2": {}
+    }
+  },
+  "env": {
+
+  },
+  "logger": {
+
+  },
+  "cluster": {
+  }
+}
