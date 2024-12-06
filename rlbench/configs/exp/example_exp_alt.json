@@ -13,6 +13,17 @@
     },
     "learner_kwargs": {
       "common": {
+        "act":  {
+          "static": {},
+          "multi": {},
+          "multi_grouped": [
+            [["key1", "key2"], ["val11", "val12"], ["val1n", "val1n"]],
+            []
+          ]
+        },
+        "preproc": {}
+      },
+      "common_alt": {
         "static": {
           "act": {},
           "preproc": {}

@@ -1,5 +1,7 @@
 from typing import Callable, Dict, Any, Union, Optional
 
+from rlbench.logger import Logger
+
 
 class RunConfig:
     def __init__(
@@ -54,7 +56,7 @@ class Run:
 
         self._setup()
 
-        self.logger = ...
+        self.logger = ...  # Logger(...)
 
         self._is_entered = False
         self._is_finished = False
